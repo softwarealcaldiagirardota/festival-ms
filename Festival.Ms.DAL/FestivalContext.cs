@@ -30,13 +30,13 @@ namespace Festival.Ms.DAL
         public DatabaseFacade DataBase => _database;
 
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            if (!optionsBuilder.IsConfigured)
-            {
-                optionsBuilder.UseNpgsql("Host=127.0.0.1;Database=festivals;Username=postgres;Password=postgres;");
-            }
-        }
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+        //    if (!optionsBuilder.IsConfigured)
+        //    {
+        //        optionsBuilder.UseNpgsql("Host=127.0.0.1;Database=festivals;Username=postgres;Password=postgres;");
+        //    }
+        //}
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
