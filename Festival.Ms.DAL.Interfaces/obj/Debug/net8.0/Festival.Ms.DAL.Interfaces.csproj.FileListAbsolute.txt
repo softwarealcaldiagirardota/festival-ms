@@ -1,0 +1,13 @@
+/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DAL.Interfaces/bin/Debug/net8.0/Festival.Ms.DAL.Interfaces.deps.json
+/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DAL.Interfaces/bin/Debug/net8.0/Festival.Ms.DAL.Interfaces.dll
+/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DAL.Interfaces/bin/Debug/net8.0/Festival.Ms.DAL.Interfaces.pdb
+/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DAL.Interfaces/obj/Debug/net8.0/Festival.Ms.DAL.Interfaces.csproj.AssemblyReference.cache
+/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DAL.Interfaces/obj/Debug/net8.0/Festival.Ms.DAL.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DAL.Interfaces/obj/Debug/net8.0/Festival.Ms.DAL.Interfaces.AssemblyInfoInputs.cache
+/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DAL.Interfaces/obj/Debug/net8.0/Festival.Ms.DAL.Interfaces.AssemblyInfo.cs
+/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DAL.Interfaces/obj/Debug/net8.0/Festival.Ms.DAL.Interfaces.csproj.CoreCompileInputs.cache
+/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DAL.Interfaces/obj/Debug/net8.0/Festival.Ms.DAL.Interfaces.sourcelink.json
+/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DAL.Interfaces/obj/Debug/net8.0/Festival.Ms.DAL.Interfaces.dll
+/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DAL.Interfaces/obj/Debug/net8.0/refint/Festival.Ms.DAL.Interfaces.dll
+/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DAL.Interfaces/obj/Debug/net8.0/Festival.Ms.DAL.Interfaces.pdb
+/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DAL.Interfaces/obj/Debug/net8.0/ref/Festival.Ms.DAL.Interfaces.dll

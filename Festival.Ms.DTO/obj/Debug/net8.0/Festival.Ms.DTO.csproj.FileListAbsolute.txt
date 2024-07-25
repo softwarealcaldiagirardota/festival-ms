@@ -1,0 +1,12 @@
+/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DTO/bin/Debug/net8.0/Festival.Ms.DTO.deps.json
+/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DTO/bin/Debug/net8.0/Festival.Ms.DTO.dll
+/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DTO/bin/Debug/net8.0/Festival.Ms.DTO.pdb
+/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DTO/obj/Debug/net8.0/Festival.Ms.DTO.GeneratedMSBuildEditorConfig.editorconfig
+/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DTO/obj/Debug/net8.0/Festival.Ms.DTO.AssemblyInfoInputs.cache
+/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DTO/obj/Debug/net8.0/Festival.Ms.DTO.AssemblyInfo.cs
+/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DTO/obj/Debug/net8.0/Festival.Ms.DTO.csproj.CoreCompileInputs.cache
+/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DTO/obj/Debug/net8.0/Festival.Ms.DTO.sourcelink.json
+/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DTO/obj/Debug/net8.0/Festival.Ms.DTO.dll
+/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DTO/obj/Debug/net8.0/refint/Festival.Ms.DTO.dll
+/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DTO/obj/Debug/net8.0/Festival.Ms.DTO.pdb
+/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DTO/obj/Debug/net8.0/ref/Festival.Ms.DTO.dll

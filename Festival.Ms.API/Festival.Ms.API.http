@@ -1,0 +1,7 @@
+﻿@Festival.Ms.API_HostAddress = http://localhost:5044
+
+GET {{Festival.Ms.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
