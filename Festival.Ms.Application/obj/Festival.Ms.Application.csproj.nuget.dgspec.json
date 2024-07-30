@@ -1,0 +1,341 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.Application/Festival.Ms.Application.csproj": {}
+  },
+  "projects": {
+    "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.Application.Interfaces/Festival.Ms.Application.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.Application.Interfaces/Festival.Ms.Application.Interfaces.csproj",
+        "projectName": "Festival.Ms.Application.Interfaces",
+        "projectPath": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.Application.Interfaces/Festival.Ms.Application.Interfaces.csproj",
+        "packagesPath": "/Users/juanquintana/.nuget/packages/",
+        "outputPath": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.Application.Interfaces/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/juanquintana/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DTO/Festival.Ms.DTO.csproj": {
+                "projectPath": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DTO/Festival.Ms.DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.Application/Festival.Ms.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.Application/Festival.Ms.Application.csproj",
+        "projectName": "Festival.Ms.Application",
+        "projectPath": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.Application/Festival.Ms.Application.csproj",
+        "packagesPath": "/Users/juanquintana/.nuget/packages/",
+        "outputPath": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/juanquintana/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.Application.Interfaces/Festival.Ms.Application.Interfaces.csproj": {
+                "projectPath": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.Application.Interfaces/Festival.Ms.Application.Interfaces.csproj"
+              },
+              "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DAL.Interfaces/Festival.Ms.DAL.Interfaces.csproj": {
+                "projectPath": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DAL.Interfaces/Festival.Ms.DAL.Interfaces.csproj"
+              },
+              "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DAL/Festival.Ms.DAL.csproj": {
+                "projectPath": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DAL/Festival.Ms.DAL.csproj"
+              },
+              "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DTO/Festival.Ms.DTO.csproj": {
+                "projectPath": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DTO/Festival.Ms.DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DAL.Interfaces/Festival.Ms.DAL.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DAL.Interfaces/Festival.Ms.DAL.Interfaces.csproj",
+        "projectName": "Festival.Ms.DAL.Interfaces",
+        "projectPath": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DAL.Interfaces/Festival.Ms.DAL.Interfaces.csproj",
+        "packagesPath": "/Users/juanquintana/.nuget/packages/",
+        "outputPath": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DAL.Interfaces/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/juanquintana/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DAL/Festival.Ms.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DAL/Festival.Ms.DAL.csproj",
+        "projectName": "Festival.Ms.DAL",
+        "projectPath": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DAL/Festival.Ms.DAL.csproj",
+        "packagesPath": "/Users/juanquintana/.nuget/packages/",
+        "outputPath": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DAL/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/juanquintana/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DAL.Interfaces/Festival.Ms.DAL.Interfaces.csproj": {
+                "projectPath": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DAL.Interfaces/Festival.Ms.DAL.Interfaces.csproj"
+              },
+              "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DTO/Festival.Ms.DTO.csproj": {
+                "projectPath": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DTO/Festival.Ms.DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL.Design": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DTO/Festival.Ms.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DTO/Festival.Ms.DTO.csproj",
+        "projectName": "Festival.Ms.DTO",
+        "projectPath": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DTO/Festival.Ms.DTO.csproj",
+        "packagesPath": "/Users/juanquintana/.nuget/packages/",
+        "outputPath": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DTO/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/juanquintana/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

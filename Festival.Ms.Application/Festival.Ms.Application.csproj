@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Festival.Ms.DTO\Festival.Ms.DTO.csproj" />
+    <ProjectReference Include="..\Festival.Ms.Application.Interfaces\Festival.Ms.Application.Interfaces.csproj" />
+    <ProjectReference Include="..\Festival.Ms.DAL.Interfaces\Festival.Ms.DAL.Interfaces.csproj" />
+    <ProjectReference Include="..\Festival.Ms.DAL\Festival.Ms.DAL.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="8.0.7" />
+  </ItemGroup>
+</Project>
