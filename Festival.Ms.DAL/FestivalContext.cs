@@ -27,6 +27,19 @@ namespace Festival.Ms.DAL
         }
 
         public virtual DbSet<FestivalEntity> Festival { get; set; }
+        public virtual DbSet<CompanyEntity> Company { get; set; }
+        public virtual DbSet<AnswerEntity> Answer { get; set; }
+        public virtual DbSet<CompanyBuysEntity> CompanyBusy { get; set; }
+        public virtual DbSet<CompanySalesEntity> CompanySale { get; set; }
+        public virtual DbSet<DeviceParticipationEntity> DeviceParticipation { get; set; }
+        public virtual DbSet<ParticipationCompanyEntity> ParticipationCompany { get; set; }
+        public virtual DbSet<ParticipationProviderEntity> ParticipationProvider { get; set; }
+        public virtual DbSet<ProductEntity> Product { get; set; }
+        public virtual DbSet<ProviderEntity> Provider { get; set; }
+        public virtual DbSet<ProviderSalesEntity> ProviderSales { get; set; }
+        public virtual DbSet<QuestionEntity> Question { get; set; }
+        public virtual DbSet<VoteEntity> Vote { get; set; }
+
         public DatabaseFacade DataBase => _database;
 
 
@@ -41,6 +54,7 @@ namespace Festival.Ms.DAL
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             FestivalEntityConfig.SetEntityBuilder(modelBuilder.Entity<FestivalEntity>());
+            CompanyEntityConfig.SetEntityBuilder(modelBuilder.Entity<CompanyEntity>());
 
 
             var cascadeFKs = modelBuilder.Model.GetEntityTypes().SelectMany(
