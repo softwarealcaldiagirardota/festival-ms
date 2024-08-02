@@ -1,15 +1,13 @@
 ﻿using System;
-using System.Text.Json;
-
 namespace Festival.Ms.DAL.Interfaces.Entities
 {
-    public class FestivalEntity
+    public class QuestionEntity
     {
-        public long Id { get; set; }
+        public int Id { get; set; }
         public string Description { get; set; }
-        public JsonElement Question { get; set; }
+        public decimal Value { get; set; }
 
-        public FestivalEntity()
+        public QuestionEntity()
         {
             Description = string.Empty;
         }

@@ -33,6 +33,8 @@ namespace Festival.Ms.DAL.EntityConfig
             entityBuilder.HasIndex(p => new { p.IdCompany, p.IdFestival })
                 .IsUnique()
                 .HasDatabaseName("unique_company_festival");
+
+            entityBuilder.HasIndex(p => new { p.IdCompany, p.IdFestival, p.Id }).HasDatabaseName("IX_company_participation");
         }
     }
 }

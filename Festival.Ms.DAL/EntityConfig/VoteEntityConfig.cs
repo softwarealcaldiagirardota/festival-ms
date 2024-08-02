@@ -33,6 +33,8 @@ namespace Festival.Ms.DAL.EntityConfig
             entityBuilder.Property(p => p.IdParticipationCompany)
                 .HasColumnName("id_participation_company")
                 .HasColumnType("bigint");
+
+            entityBuilder.HasIndex(p => new { p.IdAnswer, p.IdQuestion, p.IdParticipationCompany }).HasDatabaseName("IX_vote");
         }
     }
 }
