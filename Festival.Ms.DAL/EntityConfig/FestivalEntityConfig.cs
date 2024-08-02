@@ -13,6 +13,7 @@ namespace Festival.Ms.DAL.EntityConfig
             entityBuilder.HasKey(x => x.Id).HasName("PK_festival");
             entityBuilder.Property(p => p.Id).HasColumnName("id").ValueGeneratedOnAdd();
             entityBuilder.Property(p => p.Description).IsRequired().HasMaxLength(500).HasColumnName("description");
+            entityBuilder.Property(p => p.Question).HasColumnName("question");
 
         }
     }
