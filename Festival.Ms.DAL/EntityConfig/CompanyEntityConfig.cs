@@ -28,7 +28,7 @@ namespace Festival.Ms.DAL.EntityConfig
                 .HasColumnName("id_user_auth")
                 .HasColumnType("bigint");
 
-            entityBuilder.HasIndex(p => p.IdUserAuth).HasDatabaseName("IX_IdCompany");
+            entityBuilder.HasIndex(p => p.Id).HasDatabaseName("IX_IdCompany");
             entityBuilder.HasIndex(p => p.IdUserAuth).HasDatabaseName("IX_id_user_auth");
         }
     }

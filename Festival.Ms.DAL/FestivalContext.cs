@@ -33,10 +33,7 @@ namespace Festival.Ms.DAL
         public virtual DbSet<CompanySalesEntity> CompanySale { get; set; }
         public virtual DbSet<DeviceParticipationEntity> DeviceParticipation { get; set; }
         public virtual DbSet<ParticipationCompanyEntity> ParticipationCompany { get; set; }
-        public virtual DbSet<ParticipationProviderEntity> ParticipationProvider { get; set; }
         public virtual DbSet<ProductEntity> Product { get; set; }
-        public virtual DbSet<ProviderEntity> Provider { get; set; }
-        public virtual DbSet<ProviderSalesEntity> ProviderSales { get; set; }
         public virtual DbSet<QuestionEntity> Question { get; set; }
         public virtual DbSet<VoteEntity> Vote { get; set; }
 

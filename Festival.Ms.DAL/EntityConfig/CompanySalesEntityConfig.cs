@@ -16,6 +16,7 @@ namespace Festival.Ms.DAL.EntityConfig
             entityBuilder.Property(p => p.CreatedAt).HasColumnName("created_at");
             entityBuilder.Property(p => p.Cant).HasColumnName("cant");
             entityBuilder.Property(p => p.IdProduct).HasColumnName("id_product");
+
             entityBuilder.HasIndex(p => p.IdParticipation).HasDatabaseName("IX_CompanySIdParticipation");
         }
     }
