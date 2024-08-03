@@ -340,3 +340,14 @@ Content/
 # Ignore .NET Core build results
 bin/
 obj/
+
+# Ignore .NET Core build results for Projects
+/Festival.Ms.DAL/bin/
+/Festival.Ms.DAL/obj/
+
+# Optional: Ignore any .dll files in the entire solution
+*.dll
+
+# Uncomment the line below if you want to specifically ignore .dll files in Project1 and Project2 only
+# /Festival.Ms.DAL/**/*.dll
+# /Festival.Ms.DAL/**/*.dll
