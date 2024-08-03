@@ -15,6 +15,8 @@ namespace Festival.Ms.DAL.EntityConfig
             entityBuilder.Property(p => p.Description).IsRequired().HasMaxLength(500).HasColumnName("description");
             entityBuilder.Property(p => p.Question).HasColumnName("question");
 
+            entityBuilder.HasIndex(p => new { p.Question, p.Id }).HasDatabaseName("IX_Festival_Question");
+
         }
     }
 }
