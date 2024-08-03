@@ -336,3 +336,7 @@ ASALocalRun/
 
 #StaticFiles
 Content/
+
+# Ignore .NET Core build results
+bin/
+obj/
