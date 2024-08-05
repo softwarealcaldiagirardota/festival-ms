@@ -1,5 +1,7 @@
 ﻿using Festival.Ms.DAL.EntityConfig;
 using Festival.Ms.DAL.Interfaces.Entities;
+using Festival.Ms.DTO.Models; 
+
 
 
 namespace Festival.Ms.DAL.Mappers

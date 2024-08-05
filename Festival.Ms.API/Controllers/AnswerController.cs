@@ -6,6 +6,8 @@ using Festival.Ms.DAL.Interfaces.Repositories;
 using Festival.Ms.DTO.Generic;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Festival.Ms.DTO.Models;  
+
 
 
 

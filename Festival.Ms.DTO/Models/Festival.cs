@@ -11,6 +11,5 @@ namespace Festival.Ms.DTO.Models
     }
 
 
-
 }
 
