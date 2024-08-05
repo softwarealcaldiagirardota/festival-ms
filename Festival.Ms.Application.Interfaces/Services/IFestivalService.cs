@@ -5,5 +5,7 @@ namespace Festival.Ms.Application.Interfaces.Services
     {
         Task<DTO.Models.Festival> GetFestival(long id);
     }
+
+    
 }
 

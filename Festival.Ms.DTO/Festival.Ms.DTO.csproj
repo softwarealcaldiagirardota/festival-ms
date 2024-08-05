@@ -11,7 +11,6 @@
     <None Remove="Generic\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Models\" />
     <Folder Include="Generic\" />
   </ItemGroup>
 </Project>

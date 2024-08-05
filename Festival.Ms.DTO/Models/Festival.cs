@@ -9,5 +9,8 @@ namespace Festival.Ms.DTO.Models
         public string description { get; set; } = string.Empty;
         public JsonElement question { get; set; }
     }
+
+
+
 }
 

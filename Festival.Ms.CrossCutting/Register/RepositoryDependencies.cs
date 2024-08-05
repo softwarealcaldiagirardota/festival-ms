@@ -8,6 +8,8 @@ namespace Festival.Ms.CrossCutting.Register
         public static IServiceCollection AddRepositoryDependencies(this IServiceCollection services)
         {
             services.AddTransient<IFestivalRepository, FestivalRepository>();
+            services.AddTransient<IAnswerRepository, AnswerRepository>();
+            services.AddTransient<IQuestionRepository, QuestionRepository>();
             return services;
         }
     }

@@ -561,24 +561,27 @@
     ]
   },
   "packageFolders": {
-    "/Users/juanquintana/.nuget/packages/": {}
+    "C:\\Users\\DSC\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DAL.Interfaces/Festival.Ms.DAL.Interfaces.csproj",
+      "projectUniqueName": "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.DAL.Interfaces\\Festival.Ms.DAL.Interfaces.csproj",
       "projectName": "Festival.Ms.DAL.Interfaces",
-      "projectPath": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DAL.Interfaces/Festival.Ms.DAL.Interfaces.csproj",
-      "packagesPath": "/Users/juanquintana/.nuget/packages/",
-      "outputPath": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DAL.Interfaces/obj/",
+      "projectPath": "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.DAL.Interfaces\\Festival.Ms.DAL.Interfaces.csproj",
+      "packagesPath": "C:\\Users\\DSC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.DAL.Interfaces\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/juanquintana/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\DSC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -591,6 +594,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -618,7 +626,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

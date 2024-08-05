@@ -29,7 +29,5 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="EntityConfig\" />
-    <Folder Include="Repositories\" />
-    <Folder Include="Mappers\" />
   </ItemGroup>
 </Project>

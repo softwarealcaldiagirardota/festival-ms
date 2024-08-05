@@ -12,14 +12,16 @@ using Microsoft.AspNetCore.Mvc;
 namespace Festival.Ms.API.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/Festival")]
     public class FestivalController : ControllerBase
     {
         private readonly IFestivalService _festivalService;
+      
 
         public FestivalController(IFestivalService festivalService)
         {
             _festivalService = festivalService;
+           
         }
 
         [HttpGet("{id}")]
