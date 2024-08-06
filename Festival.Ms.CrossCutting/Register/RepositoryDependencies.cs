@@ -10,6 +10,11 @@ namespace Festival.Ms.CrossCutting.Register
             services.AddTransient<IFestivalRepository, FestivalRepository>();
             services.AddTransient<IAnswerRepository, AnswerRepository>();
             services.AddTransient<IQuestionRepository, QuestionRepository>();
+            services.AddTransient<ICompanyRepository, CompanyRepository>();
+            services.AddTransient<IProductRepository, ProductRepository>();
+            services.AddTransient<ICompanySaleRepository, CompanySaleRepository>();
+            services.AddTransient<ICompanyBusyRepository, CompanyBusyRepository>();
+            services.AddTransient<IJuryRepository, JuryRepository>();
             return services;
         }
     }

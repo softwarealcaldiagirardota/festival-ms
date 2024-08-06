@@ -14,7 +14,7 @@ namespace Festival.Ms.DAL.Mappers
             {
                 id = AnswerEntity?.Id ?? 0,
                 Description = AnswerEntity?.Description ?? string.Empty,
-                Value = (long)(AnswerEntity?.Value ?? 0) // Conversión explícita de decimal a long
+                Value = (long)(AnswerEntity?.Value ?? 0) 
             };
         }
 

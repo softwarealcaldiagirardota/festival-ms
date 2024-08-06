@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Answer.Ms.DTO.Models
+namespace Festival.Ms.DTO.Models
 {
     public class Answer
     {

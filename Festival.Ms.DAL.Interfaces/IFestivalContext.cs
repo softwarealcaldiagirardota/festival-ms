@@ -10,8 +10,12 @@ namespace Festival.Ms.DAL.Interfaces
     {
         DbSet<FestivalEntity> Festival { get; set; }
         DbSet<AnswerEntity> Answer { get; set; }
-
         DbSet<QuestionEntity> Question { get; set; }
+        DbSet<CompanyEntity> Company { get; set; }
+        DbSet<ProductEntity> Product { get; set; }
+        DbSet<CompanySalesEntity> CompanySale { get; set; }
+        DbSet<CompanyBuysEntity> CompanyBusy { get; set; }
+        DbSet<JuryEntity> Jury { get; set; }
 
 
         DbSet<TEntity> Set<TEntity>() where TEntity : class;
