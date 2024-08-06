@@ -9,22 +9,22 @@ namespace Festival.Ms.DAL.EntityConfig
     {
         public static void SetEntityBuilder(EntityTypeBuilder<DeviceParticipationEntity> entityBuilder)
         {
-            entityBuilder.ToTable("device_participation");
+            entityBuilder.ToTable("DeviceParticipation");
 
             entityBuilder.HasKey(x => x.Id)
-                .HasName("device_participation_pk");
+                .HasName("PK_DeviceParticipation");
 
             entityBuilder.Property(p => p.Id)
-                .HasColumnName("id")
+                .HasColumnName("Id")
                 .ValueGeneratedOnAdd();
 
             entityBuilder.Property(p => p.Hash)
-                .HasColumnName("hash")
+                .HasColumnName("Hash")
                 .IsRequired()
                 .HasColumnType("varchar");
 
             entityBuilder.Property(p => p.IdParticipation)
-                .HasColumnName("id_participation")
+                .HasColumnName("IdParticipation")
                 .HasColumnType("bigint")
                 .IsRequired();
 

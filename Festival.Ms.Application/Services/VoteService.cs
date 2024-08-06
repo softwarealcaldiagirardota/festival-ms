@@ -5,6 +5,7 @@ using Festival.Ms.Application.Interfaces.Services;
 using Festival.Ms.DAL.Interfaces.Entities;
 using Festival.Ms.DAL.Interfaces.Repositories;
 using Festival.Ms.DTO.Models;
+using Microsoft.Extensions.Logging;
 
 namespace Festival.Ms.Application.Services
 {
@@ -13,18 +14,21 @@ namespace Festival.Ms.Application.Services
         private readonly IVoteRepository _voteRespository;
         private readonly IDeviceParticipationRepository _deviceParticipationRespository;
         private readonly IParticipationCompanyRepository _participationCompanyRespository;
-
-        private const string SecretKey = "TuClaveSecretaAqui123"; // company
-        private static readonly byte[] Nonce = Encoding.ASCII.GetBytes("NonceSecretoAqui12"); // 12 bytes para ChaCha20
-        const string claveSecreta = "clave_super_secreta_de_la_empresa";// codigo
+        private readonly ILogger<VoteService> _logger;
+        string key = "8Y9ksCRQic9+roHrANRuoCce17o7H/2xtEiT72V+l6k=";
+        private const string Base36Chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        const string claveSecreta = "clave_super_secreta_de_la_empresa";
+        private const int MaxValue = 46655; // 36^3 - 1
 
         public VoteService(IVoteRepository voteRepository,
             IDeviceParticipationRepository deviceParticipation,
-            IParticipationCompanyRepository participationCompanyRespository)
+            IParticipationCompanyRepository participationCompanyRespository,
+            ILogger<VoteService> logger)
         {
             _voteRespository = voteRepository;
             _deviceParticipationRespository = deviceParticipation;
             _participationCompanyRespository = participationCompanyRespository;
+            _logger = logger;
         }
 
         //Desencrypt CompanyId code
@@ -34,15 +38,17 @@ namespace Festival.Ms.Application.Services
         public async Task<bool> RegistryVote(List<Vote> votes, string code, int IdFestival)
         {
             var codeEncodeSplit = SplitCodeEncode(code);
-            var IdCompany = DecodeNumber(codeEncodeSplit.Item2);
-            if (VerifyCode(codeEncodeSplit.Item2, IdCompany))
+            var IdCompany = DecodeNumber(codeEncodeSplit.Item2, key);
+            if (IdCompany == 0)
             {
-                var IdParticipationCompany = 0;
-                var IdDeviceParticipation = 0;
+                return false;
+            }
+            if (VerifyCode(codeEncodeSplit.Item1, IdCompany))
+            {
                 var hash = CreateHash(code);
                 //GetParticipationCompanyID
-                IdParticipationCompany = await _participationCompanyRespository.GetIdByCompanyAndFestivalAsync(IdCompany, IdFestival);
-                if (IdParticipationCompany == 0)
+                var IdParticipationCompany = await _participationCompanyRespository.GetIdByCompanyAndFestivalAsync(IdCompany, IdFestival);
+                if (IdParticipationCompany == null)
                 {
                     return false;
                 }
@@ -50,40 +56,21 @@ namespace Festival.Ms.Application.Services
                 var DevicePart = new DeviceParticipationEntity()
                 {
                     Hash = hash,
-                    IdParticipation = IdParticipationCompany
+                    IdParticipation = (long)IdParticipationCompany
                 };
 
-                IdDeviceParticipation = await _deviceParticipationRespository.CreateAsync(DevicePart);
-                if (IdDeviceParticipation == 0)
+                var IdDeviceParticipation = await _deviceParticipationRespository.CreateAsync(DevicePart);
+                if (IdDeviceParticipation == null)
                 {
                     return false;
                 }
-                var flag = true;
                 //InsertVote manejar transaccion
-                foreach (var item in votes)
-                {
-                    var Vote = new VoteEntity()
-                    {
-                        CreatedAt = DateTime.Now,
-                        IdQuestion = item.IdQuestion,
-                        IdAnswer = item.IdAnswer,
-                        IdParticipationCompany = item.IdParticipationCompany
-                    };
+                var ListVotes = DAL.Mappers.VoteMapper.Map(votes, Convert.ToInt64(IdDeviceParticipation));
 
-                    var IdVote = await _voteRespository.CreateAsync(Vote);
-                    if (IdVote == 0)
-                    {
-                        flag = false;
-                        break;
-                    }
-                }
-                if (!flag)
-                {
-                    return await Task.FromResult(false);
-                }
+                return await _voteRespository.SaveEntitiesWithTransaction(ListVotes);
             }
 
-            return await Task.FromResult(true);
+            return await Task.FromResult(false);
         }
 
 
@@ -112,31 +99,57 @@ namespace Festival.Ms.Application.Services
             throw new NotImplementedException();
         }
 
-        public static int DecodeNumber(string encodedString)
+        public int DecodeNumber(string encryptedValue, string key)
         {
-            string paddedEncoded = encodedString.PadRight((encodedString.Length + 3) / 4 * 4, '=');
-            byte[] decrypted = DecryptChaCha20(paddedEncoded);
-            return BitConverter.ToInt32(decrypted, 0);
+            try
+            {
+                if (encryptedValue.Length != 5)
+                    throw new ArgumentException("Invalid encrypted value length");
+
+                string base36 = encryptedValue.Substring(0, 3);
+                byte receivedChecksum = (byte)FromBase36(encryptedValue.Substring(3, 2));
+
+                if (receivedChecksum != CalculateChecksum(base36))
+                    throw new CryptographicException("Data integrity check failed");
+
+                int encrypted = FromBase36(base36);
+
+                using (var md5 = MD5.Create())
+                {
+                    byte[] keyBytes = md5.ComputeHash(Encoding.UTF8.GetBytes(key));
+                    int keyInt = BitConverter.ToInt32(keyBytes, 0) & MaxValue;
+
+                    return (encrypted - keyInt + (MaxValue + 1)) % (MaxValue + 1); // Revertimos la operación de suma
+                }
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "A typo error occurred.");
+                return 0;
+            }
+
         }
 
-        private static byte[] DecryptChaCha20(string encryptedString)
+        private static byte CalculateChecksum(string value)
         {
-            using (var chacha20 = new ChaCha20(DeriveKey(SecretKey, 32), Nonce))
+            byte checksum = 0;
+            foreach (char c in value)
             {
-                byte[] encryptedBytes = Convert.FromBase64String(encryptedString);
-                byte[] decrypted = new byte[encryptedBytes.Length];
-                chacha20.Transform(encryptedBytes, decrypted);
-                return decrypted;
+                checksum ^= (byte)c;
             }
+            return checksum;
         }
 
-        private static byte[] DeriveKey(string password, int keySize)
+        private static int FromBase36(string value)
         {
-            using (var deriveBytes = new Rfc2898DeriveBytes(password, Nonce, 10000))
+            int result = 0;
+            foreach (char c in value.ToUpper())
             {
-                return deriveBytes.GetBytes(keySize);
+                result = result * 36 + Base36Chars.IndexOf(c);
             }
+            return result;
         }
+
 
         public static (string, string) SplitCodeEncode(string input)
         {

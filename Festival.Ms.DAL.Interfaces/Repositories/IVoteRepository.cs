@@ -10,6 +10,7 @@ namespace Festival.Ms.DAL.Interfaces.Repositories
         Task<IEnumerable<VoteEntity>> GetAllAsync();
         Task UpdateAsync(VoteEntity entity);
         Task DeleteAsync(int id);
+        Task<bool> SaveEntitiesWithTransaction(List<VoteEntity> entities);
     }
 }
 

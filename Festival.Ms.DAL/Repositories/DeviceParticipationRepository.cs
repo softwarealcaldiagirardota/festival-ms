@@ -3,6 +3,7 @@ using Festival.Ms.DAL.Interfaces;
 using Festival.Ms.DAL.Interfaces.Entities;
 using Festival.Ms.DAL.Interfaces.Repositories;
 using Microsoft.EntityFrameworkCore;
+using Npgsql;
 
 namespace Festival.Ms.DAL.Repositories
 {
@@ -15,12 +16,25 @@ namespace Festival.Ms.DAL.Repositories
             _festivalContext = festivalContext;
         }
 
-        public async Task<int> CreateAsync(DeviceParticipationEntity entity)
+        public async Task<int?> CreateAsync(DeviceParticipationEntity entity)
         {
-            await _festivalContext.DeviceParticipation.AddAsync(entity);
-            await _festivalContext.SaveChangesAsync();
-            var idProperty = typeof(DeviceParticipationEntity).GetProperty("Id");
-            return (int)idProperty.GetValue(entity);
+            try
+            {
+                await _festivalContext.DeviceParticipation.AddAsync(entity);
+                await _festivalContext.SaveChangesAsync();
+                return entity.Id;
+            }
+            catch (DbUpdateException ex)
+            {
+                if (ex.InnerException is PostgresException postgresException && postgresException.SqlState == "23505")
+                {
+                    // Handle duplicate key violation
+                    return null;
+                }
+
+                // Re-throw the exception if it's not a duplicate key violation
+                throw;
+            }
         }
 
         public async Task<DeviceParticipationEntity?> GetByIdAsync(int id)

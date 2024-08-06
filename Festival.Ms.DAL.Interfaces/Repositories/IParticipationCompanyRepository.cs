@@ -10,7 +10,7 @@ namespace Festival.Ms.DAL.Interfaces.Repositories
         Task<IEnumerable<ParticipationCompanyEntity>> GetAllAsync();
         Task UpdateAsync(ParticipationCompanyEntity entity);
         Task DeleteAsync(int id);
-        Task<int> GetIdByCompanyAndFestivalAsync(
+        Task<int?> GetIdByCompanyAndFestivalAsync(
             int IdCompany, int IdFestival);
     }
 }

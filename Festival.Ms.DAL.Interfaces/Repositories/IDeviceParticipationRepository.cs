@@ -5,7 +5,7 @@ namespace Festival.Ms.DAL.Interfaces.Repositories
 {
     public interface IDeviceParticipationRepository
     {
-        Task<int> CreateAsync(DeviceParticipationEntity entity);
+        Task<int?> CreateAsync(DeviceParticipationEntity entity);
         Task<DeviceParticipationEntity?> GetByIdAsync(int id);
         Task<IEnumerable<DeviceParticipationEntity>> GetAllAsync();
         Task UpdateAsync(DeviceParticipationEntity entity);

@@ -9,6 +9,7 @@ namespace Festival.Ms.CrossCutting.Register
         public static IServiceCollection AddServiceDependencies(this IServiceCollection services)
         {
             services.AddTransient<IFestivalService, FestivalService>();
+            services.AddTransient<IVoteService, VoteService>();
             return services;
         }
     }

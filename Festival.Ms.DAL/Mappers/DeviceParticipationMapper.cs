@@ -9,7 +9,6 @@ namespace Festival.Ms.DAL.Mappers
         {
             return new DTO.Models.DeviceParticipation
             {
-                Id = entity?.Id ?? 0,
                 Hash = entity?.Hash ?? string.Empty,
                 IdParticipation = entity?.IdParticipation ?? 0
             };

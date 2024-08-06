@@ -49,6 +49,27 @@ namespace Festival.Ms.DAL.Repositories
                 await _festivalContext.SaveChangesAsync();
             }
         }
+
+        public async Task<bool> SaveEntitiesWithTransaction(List<VoteEntity> entities)
+        {
+            using var transaction = _festivalContext.DataBase.BeginTransaction();
+            try
+            {
+                foreach (var entity in entities)
+                {
+                    _festivalContext.Vote.Add(entity);
+                }
+
+                await _festivalContext.SaveChangesAsync();
+                await transaction.CommitAsync();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                await transaction.RollbackAsync();
+                return false;
+            }
+        }
     }
 }
 

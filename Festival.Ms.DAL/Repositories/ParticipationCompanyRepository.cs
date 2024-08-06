@@ -52,13 +52,10 @@ namespace Festival.Ms.DAL.Repositories
             }
         }
 
-        public async Task<int> GetIdByCompanyAndFestivalAsync(
+        public async Task<int?> GetIdByCompanyAndFestivalAsync(
         int IdCompany, int IdFestival)
         {
-            return await _festivalContext.ParticipationCompany
-                .Where(p => p.IdCompany == IdCompany && p.IdFestival == IdFestival)
-                .Select(p => p.Id)
-                .FirstOrDefaultAsync();
+            return await _festivalContext.ParticipationCompany.Where(p => p.IdCompany == IdCompany && p.IdFestival == IdFestival).Select(p => (int?)p.Id).FirstOrDefaultAsync();
         }
     }
 }
