@@ -8,6 +8,9 @@ namespace Festival.Ms.DAL.Interfaces
     public interface IFestivalContext
     {
         DbSet<FestivalEntity> Festival { get; set; }
+        DbSet<VoteEntity> Vote { get; set; }
+        DbSet<DeviceParticipationEntity> DeviceParticipation { get; set; }
+        DbSet<ParticipationCompanyEntity> ParticipationCompany { get; set; }
 
         DbSet<TEntity> Set<TEntity>() where TEntity : class;
         DatabaseFacade DataBase { get; }
