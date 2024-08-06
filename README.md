@@ -2,7 +2,7 @@
 
 
 dotnet ef migrations add InitialCreate
-
+dotnet ef migrations add 20240805 --startup-project ../Festival.Ms.API/
 
 execute migrations 
 win

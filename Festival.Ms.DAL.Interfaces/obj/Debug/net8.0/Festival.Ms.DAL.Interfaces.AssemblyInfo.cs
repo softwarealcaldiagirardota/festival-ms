@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Festival.Ms.DAL.Interfaces")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c7444d68cf7520dd6a68bdfa66243f61c7503e63")]
 [assembly: System.Reflection.AssemblyProductAttribute("Festival.Ms.DAL.Interfaces")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Festival.Ms.DAL.Interfaces")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

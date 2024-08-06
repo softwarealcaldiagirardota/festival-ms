@@ -21,6 +21,12 @@ namespace Festival.Ms.DTO.Generic
             {
                 state = true;
                 responseType = Messages.OK.ToString();
+                if (!Convert.ToBoolean(data))
+                {
+                    message = "Error al guardar, codigo ya usado o erroneo";
+                    responseType = Messages.ERROR.ToString();
+                    state = false;
+                }
             }
         }
 
