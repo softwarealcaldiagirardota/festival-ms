@@ -53,6 +53,9 @@ namespace Festival.Ms.DAL
         {
             FestivalEntityConfig.SetEntityBuilder(modelBuilder.Entity<FestivalEntity>());
             CompanyEntityConfig.SetEntityBuilder(modelBuilder.Entity<CompanyEntity>());
+            VoteEntityConfig.SetEntityBuilder(modelBuilder.Entity<VoteEntity>());
+            DeviceParticipationEntityConfig.SetEntityBuilder(modelBuilder.Entity<DeviceParticipationEntity>());
+            ParticipationCompanyEntityConfig.SetEntityBuilder(modelBuilder.Entity<ParticipationCompanyEntity>());
 
 
             var cascadeFKs = modelBuilder.Model.GetEntityTypes().SelectMany(

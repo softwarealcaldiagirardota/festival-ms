@@ -5,10 +5,6 @@ using System.Xml.Serialization;
 using Festival.Ms.DAL.Interfaces;
 using Festival.Ms.DAL;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.IdentityModel.Tokens;
-using System.Security.Claims;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Authorization;
 
 namespace Festival.Ms.CrossCutting.Register

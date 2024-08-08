@@ -349,5 +349,12 @@ Festival.Ms.DAL/obj/
 *.dll
 
 # Uncomment the line below if you want to specifically ignore .dll files in Project1 and Project2 only
-# Festival.Ms.DAL/**/*.dll
-# Festival.Ms.DAL/**/*.dll
+Festival.Ms.DAL/**/*.dll
+Festival.Ms.DAL/**/*.dll
+
+# Patrón más general para ignorar archivos similares en cualquier proyecto
+**/obj/Debug/net8.0/*.AssemblyInfo.cs
+**/obj/Debug/net8.0/*.AssemblyInfoInputs.cache
+**/obj/Debug/net8.0/*.csproj.CoreCompileInputs.cache
+**/obj/Debug/net8.0/*.dll
+**/obj/Debug/net8.0/*.pdb

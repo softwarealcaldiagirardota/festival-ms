@@ -15,10 +15,10 @@ namespace Festival.Ms.CrossCutting.Register
             services.AddTransient<IProductService, ProductService>();
             services.AddTransient<ICompanyBusyService, CompanyBusyService>();
             services.AddTransient<IJuryService, JuryService>();
+            services.AddTransient<IVoteService, VoteService>();
 
 
             return services;
         }
     }
 }
-

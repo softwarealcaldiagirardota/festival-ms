@@ -9,25 +9,25 @@ namespace Festival.Ms.DAL.EntityConfig
     {
         public static void SetEntityBuilder(EntityTypeBuilder<ParticipationCompanyEntity> entityBuilder)
         {
-            entityBuilder.ToTable("participation_company");
+            entityBuilder.ToTable("ParticipationCompany");
 
             entityBuilder.HasKey(x => x.Id)
                 .HasName("participation_company_pk");
 
             entityBuilder.Property(p => p.Id)
-                .HasColumnName("id")
+                .HasColumnName("Id")
                 .ValueGeneratedOnAdd();
 
             entityBuilder.Property(p => p.IdCompany)
-                .HasColumnName("id_company")
+                .HasColumnName("IdCompany")
                 .HasColumnType("bigint");
 
             entityBuilder.Property(p => p.IdFestival)
-                .HasColumnName("id_festival")
+                .HasColumnName("IdFestival")
                 .HasColumnType("bigint");
 
             entityBuilder.Property(p => p.CreatedAt)
-                .HasColumnName("created_at")
+                .HasColumnName("CreatedAt")
                 .HasColumnType("timestamptz");
 
             entityBuilder.HasIndex(p => new { p.IdCompany, p.IdFestival })
