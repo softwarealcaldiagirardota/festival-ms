@@ -1,6 +1,5 @@
 ﻿using Festival.Ms.DAL.Interfaces.Repositories;
 using Festival.Ms.DAL.Repositories;
-using Festival.Ms.DTO.Models;
 using Microsoft.Extensions.DependencyInjection;
 namespace Festival.Ms.CrossCutting.Register
 {
@@ -9,6 +8,13 @@ namespace Festival.Ms.CrossCutting.Register
         public static IServiceCollection AddRepositoryDependencies(this IServiceCollection services)
         {
             services.AddTransient<IFestivalRepository, FestivalRepository>();
+            services.AddTransient<IAnswerRepository, AnswerRepository>();
+            services.AddTransient<IQuestionRepository, QuestionRepository>();
+            services.AddTransient<ICompanyRepository, CompanyRepository>();
+            services.AddTransient<IProductRepository, ProductRepository>();
+            services.AddTransient<ICompanySaleRepository, CompanySaleRepository>();
+            services.AddTransient<ICompanyBusyRepository, CompanyBusyRepository>();
+            services.AddTransient<IJuryRepository, JuryRepository>();
             services.AddTransient<IVoteRepository, VoteRepository>();
             services.AddTransient<IParticipationCompanyRepository, ParticipationCompanyRepository>();
             services.AddTransient<IDeviceParticipationRepository, DeviceParticipationRepository>();
@@ -16,4 +22,3 @@ namespace Festival.Ms.CrossCutting.Register
         }
     }
 }
-

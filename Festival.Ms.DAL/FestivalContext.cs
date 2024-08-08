@@ -36,6 +36,7 @@ namespace Festival.Ms.DAL
         public virtual DbSet<ProductEntity> Product { get; set; }
         public virtual DbSet<QuestionEntity> Question { get; set; }
         public virtual DbSet<VoteEntity> Vote { get; set; }
+        public virtual DbSet<JuryEntity> Jury { get; set; }
 
         public DatabaseFacade DataBase => _database;
 

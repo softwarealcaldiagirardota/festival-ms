@@ -1,39 +1,42 @@
 {
   "format": 1,
   "restore": {
-    "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.API/Festival.Ms.API.csproj": {}
+    "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.API\\Festival.Ms.API.csproj": {}
   },
   "projects": {
-    "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.API/Festival.Ms.API.csproj": {
+    "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.API\\Festival.Ms.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.API/Festival.Ms.API.csproj",
+        "projectUniqueName": "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.API\\Festival.Ms.API.csproj",
         "projectName": "Festival.Ms.API",
-        "projectPath": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.API/Festival.Ms.API.csproj",
-        "packagesPath": "/Users/juanquintana/.nuget/packages/",
-        "outputPath": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.API/obj/",
+        "projectPath": "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.API\\Festival.Ms.API.csproj",
+        "packagesPath": "C:\\Users\\DSC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/juanquintana/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\DSC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.Application.Interfaces/Festival.Ms.Application.Interfaces.csproj": {
-                "projectPath": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.Application.Interfaces/Festival.Ms.Application.Interfaces.csproj"
+              "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.Application.Interfaces\\Festival.Ms.Application.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.Application.Interfaces\\Festival.Ms.Application.Interfaces.csproj"
               },
-              "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.Application/Festival.Ms.Application.csproj": {
-                "projectPath": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.Application/Festival.Ms.Application.csproj"
+              "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.Application\\Festival.Ms.Application.csproj": {
+                "projectPath": "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.Application\\Festival.Ms.Application.csproj"
               },
-              "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.CrossCutting/Festival.Ms.CrossCutting.csproj": {
-                "projectPath": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.CrossCutting/Festival.Ms.CrossCutting.csproj"
+              "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.CrossCutting\\Festival.Ms.CrossCutting.csproj": {
+                "projectPath": "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.CrossCutting\\Festival.Ms.CrossCutting.csproj"
               }
             }
           }
@@ -42,6 +45,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -90,34 +98,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.Application.Interfaces/Festival.Ms.Application.Interfaces.csproj": {
+    "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.Application.Interfaces\\Festival.Ms.Application.Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.Application.Interfaces/Festival.Ms.Application.Interfaces.csproj",
+        "projectUniqueName": "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.Application.Interfaces\\Festival.Ms.Application.Interfaces.csproj",
         "projectName": "Festival.Ms.Application.Interfaces",
-        "projectPath": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.Application.Interfaces/Festival.Ms.Application.Interfaces.csproj",
-        "packagesPath": "/Users/juanquintana/.nuget/packages/",
-        "outputPath": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.Application.Interfaces/obj/",
+        "projectPath": "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.Application.Interfaces\\Festival.Ms.Application.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\DSC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.Application.Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/juanquintana/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\DSC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DTO/Festival.Ms.DTO.csproj": {
-                "projectPath": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DTO/Festival.Ms.DTO.csproj"
+              "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.DTO\\Festival.Ms.DTO.csproj": {
+                "projectPath": "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.DTO\\Festival.Ms.DTO.csproj"
               }
             }
           }
@@ -126,6 +137,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -147,43 +163,46 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.Application/Festival.Ms.Application.csproj": {
+    "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.Application\\Festival.Ms.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.Application/Festival.Ms.Application.csproj",
+        "projectUniqueName": "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.Application\\Festival.Ms.Application.csproj",
         "projectName": "Festival.Ms.Application",
-        "projectPath": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.Application/Festival.Ms.Application.csproj",
-        "packagesPath": "/Users/juanquintana/.nuget/packages/",
-        "outputPath": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.Application/obj/",
+        "projectPath": "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.Application\\Festival.Ms.Application.csproj",
+        "packagesPath": "C:\\Users\\DSC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/juanquintana/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\DSC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.Application.Interfaces/Festival.Ms.Application.Interfaces.csproj": {
-                "projectPath": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.Application.Interfaces/Festival.Ms.Application.Interfaces.csproj"
+              "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.Application.Interfaces\\Festival.Ms.Application.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.Application.Interfaces\\Festival.Ms.Application.Interfaces.csproj"
               },
-              "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DAL.Interfaces/Festival.Ms.DAL.Interfaces.csproj": {
-                "projectPath": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DAL.Interfaces/Festival.Ms.DAL.Interfaces.csproj"
+              "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.DAL.Interfaces\\Festival.Ms.DAL.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.DAL.Interfaces\\Festival.Ms.DAL.Interfaces.csproj"
               },
-              "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DAL/Festival.Ms.DAL.csproj": {
-                "projectPath": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DAL/Festival.Ms.DAL.csproj"
+              "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.DAL\\Festival.Ms.DAL.csproj": {
+                "projectPath": "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.DAL\\Festival.Ms.DAL.csproj"
               },
-              "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DTO/Festival.Ms.DTO.csproj": {
-                "projectPath": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DTO/Festival.Ms.DTO.csproj"
+              "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.DTO\\Festival.Ms.DTO.csproj": {
+                "projectPath": "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.DTO\\Festival.Ms.DTO.csproj"
               }
             }
           }
@@ -192,6 +211,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -219,40 +243,43 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.CrossCutting/Festival.Ms.CrossCutting.csproj": {
+    "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.CrossCutting\\Festival.Ms.CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.CrossCutting/Festival.Ms.CrossCutting.csproj",
+        "projectUniqueName": "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.CrossCutting\\Festival.Ms.CrossCutting.csproj",
         "projectName": "Festival.Ms.CrossCutting",
-        "projectPath": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.CrossCutting/Festival.Ms.CrossCutting.csproj",
-        "packagesPath": "/Users/juanquintana/.nuget/packages/",
-        "outputPath": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.CrossCutting/obj/",
+        "projectPath": "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.CrossCutting\\Festival.Ms.CrossCutting.csproj",
+        "packagesPath": "C:\\Users\\DSC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.CrossCutting\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/juanquintana/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\DSC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.Application.Interfaces/Festival.Ms.Application.Interfaces.csproj": {
-                "projectPath": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.Application.Interfaces/Festival.Ms.Application.Interfaces.csproj"
+              "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.Application.Interfaces\\Festival.Ms.Application.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.Application.Interfaces\\Festival.Ms.Application.Interfaces.csproj"
               },
-              "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.Application/Festival.Ms.Application.csproj": {
-                "projectPath": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.Application/Festival.Ms.Application.csproj"
+              "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.Application\\Festival.Ms.Application.csproj": {
+                "projectPath": "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.Application\\Festival.Ms.Application.csproj"
               },
-              "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DAL/Festival.Ms.DAL.csproj": {
-                "projectPath": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DAL/Festival.Ms.DAL.csproj"
+              "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.DAL\\Festival.Ms.DAL.csproj": {
+                "projectPath": "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.DAL\\Festival.Ms.DAL.csproj"
               }
             }
           }
@@ -261,12 +288,21 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -292,26 +328,29 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DAL.Interfaces/Festival.Ms.DAL.Interfaces.csproj": {
+    "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.DAL.Interfaces\\Festival.Ms.DAL.Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DAL.Interfaces/Festival.Ms.DAL.Interfaces.csproj",
+        "projectUniqueName": "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.DAL.Interfaces\\Festival.Ms.DAL.Interfaces.csproj",
         "projectName": "Festival.Ms.DAL.Interfaces",
-        "projectPath": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DAL.Interfaces/Festival.Ms.DAL.Interfaces.csproj",
-        "packagesPath": "/Users/juanquintana/.nuget/packages/",
-        "outputPath": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DAL.Interfaces/obj/",
+        "projectPath": "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.DAL.Interfaces\\Festival.Ms.DAL.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\DSC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.DAL.Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/juanquintana/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\DSC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -324,6 +363,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -351,37 +395,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DAL/Festival.Ms.DAL.csproj": {
+    "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.DAL\\Festival.Ms.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DAL/Festival.Ms.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.DAL\\Festival.Ms.DAL.csproj",
         "projectName": "Festival.Ms.DAL",
-        "projectPath": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DAL/Festival.Ms.DAL.csproj",
-        "packagesPath": "/Users/juanquintana/.nuget/packages/",
-        "outputPath": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DAL/obj/",
+        "projectPath": "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.DAL\\Festival.Ms.DAL.csproj",
+        "packagesPath": "C:\\Users\\DSC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/juanquintana/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\DSC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DAL.Interfaces/Festival.Ms.DAL.Interfaces.csproj": {
-                "projectPath": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DAL.Interfaces/Festival.Ms.DAL.Interfaces.csproj"
+              "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.DAL.Interfaces\\Festival.Ms.DAL.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.DAL.Interfaces\\Festival.Ms.DAL.Interfaces.csproj"
               },
-              "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DTO/Festival.Ms.DTO.csproj": {
-                "projectPath": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DTO/Festival.Ms.DTO.csproj"
+              "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.DTO\\Festival.Ms.DTO.csproj": {
+                "projectPath": "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.DTO\\Festival.Ms.DTO.csproj"
               }
             }
           }
@@ -390,6 +437,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -443,26 +495,29 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DTO/Festival.Ms.DTO.csproj": {
+    "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.DTO\\Festival.Ms.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DTO/Festival.Ms.DTO.csproj",
+        "projectUniqueName": "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.DTO\\Festival.Ms.DTO.csproj",
         "projectName": "Festival.Ms.DTO",
-        "projectPath": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DTO/Festival.Ms.DTO.csproj",
-        "packagesPath": "/Users/juanquintana/.nuget/packages/",
-        "outputPath": "/Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DTO/obj/",
+        "projectPath": "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.DTO\\Festival.Ms.DTO.csproj",
+        "packagesPath": "C:\\Users\\DSC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DSC\\Desktop\\Escritorio\\JUANGUI\\festival-ms\\Festival.Ms.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/juanquintana/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\DSC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -475,6 +530,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -496,7 +556,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

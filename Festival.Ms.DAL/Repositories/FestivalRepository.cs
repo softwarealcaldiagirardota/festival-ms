@@ -6,14 +6,16 @@
     using Festival.Ms.DAL.Interfaces.Repositories;
     using Microsoft.VisualBasic;
     using Microsoft.EntityFrameworkCore;
+    using Festival.Ms.DAL.EntityConfig;
 
-    namespace Festival.Ms.DAL.Repositories
+namespace Festival.Ms.DAL.Repositories
     {
         public class FestivalRepository : IFestivalRepository
         {
             private readonly IFestivalContext _festivalContext;
+        
 
-            public FestivalRepository(IFestivalContext festivalContext)
+        public FestivalRepository(IFestivalContext festivalContext)
             {
                 _festivalContext = festivalContext;
             }
@@ -23,6 +25,8 @@
                 return await _festivalContext.Festival.FirstOrDefaultAsync(
                     x => x.Id.Equals(id));
             }
+
+           
         }
     }
 

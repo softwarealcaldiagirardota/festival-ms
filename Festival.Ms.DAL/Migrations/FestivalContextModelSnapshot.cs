@@ -183,6 +183,29 @@ namespace Festival.Ms.DAL.Migrations
                     b.ToTable("festival", (string)null);
                 });
 
+            modelBuilder.Entity("Festival.Ms.DAL.Interfaces.Entities.JuryEntity", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<long>("IdUserAuth")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Jury");
+                });
+
             modelBuilder.Entity("Festival.Ms.DAL.Interfaces.Entities.ParticipationCompanyEntity", b =>
                 {
                     b.Property<int>("Id")

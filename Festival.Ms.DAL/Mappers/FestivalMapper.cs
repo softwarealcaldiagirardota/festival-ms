@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Text.Json;
+using Festival.Ms.DAL.EntityConfig;
 using Festival.Ms.DAL.Interfaces.Entities;
 
 namespace Festival.Ms.DAL.Mappers
@@ -16,5 +17,8 @@ namespace Festival.Ms.DAL.Mappers
             };
         }
     }
+
+
+    
 }
 

@@ -27,9 +27,4 @@
     <None Remove="Repositories\" />
     <None Remove="Mappers\" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="EntityConfig\" />
-    <Folder Include="Repositories\" />
-    <Folder Include="Mappers\" />
-  </ItemGroup>
 </Project>

@@ -36,3 +36,16 @@ D:/PERSONAL/EJEMPLO/Festival/festival-ms/Festival.Ms.DAL.Interfaces/obj/Debug/ne
 /Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DAL.Interfaces/obj/Debug/net8.0/refint/Festival.Ms.DAL.Interfaces.dll
 /Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DAL.Interfaces/obj/Debug/net8.0/Festival.Ms.DAL.Interfaces.pdb
 /Users/juanquintana/Documents/girardota/festival-ms/Festival.Ms.DAL.Interfaces/obj/Debug/net8.0/ref/Festival.Ms.DAL.Interfaces.dll
+C:\Users\DSC\Desktop\Escritorio\JUANGUI\festival-ms\Festival.Ms.DAL.Interfaces\bin\Debug\net8.0\Festival.Ms.DAL.Interfaces.deps.json
+C:\Users\DSC\Desktop\Escritorio\JUANGUI\festival-ms\Festival.Ms.DAL.Interfaces\bin\Debug\net8.0\Festival.Ms.DAL.Interfaces.dll
+C:\Users\DSC\Desktop\Escritorio\JUANGUI\festival-ms\Festival.Ms.DAL.Interfaces\bin\Debug\net8.0\Festival.Ms.DAL.Interfaces.pdb
+C:\Users\DSC\Desktop\Escritorio\JUANGUI\festival-ms\Festival.Ms.DAL.Interfaces\obj\Debug\net8.0\Festival.Ms.DAL.Interfaces.csproj.AssemblyReference.cache
+C:\Users\DSC\Desktop\Escritorio\JUANGUI\festival-ms\Festival.Ms.DAL.Interfaces\obj\Debug\net8.0\Festival.Ms.DAL.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DSC\Desktop\Escritorio\JUANGUI\festival-ms\Festival.Ms.DAL.Interfaces\obj\Debug\net8.0\Festival.Ms.DAL.Interfaces.AssemblyInfoInputs.cache
+C:\Users\DSC\Desktop\Escritorio\JUANGUI\festival-ms\Festival.Ms.DAL.Interfaces\obj\Debug\net8.0\Festival.Ms.DAL.Interfaces.AssemblyInfo.cs
+C:\Users\DSC\Desktop\Escritorio\JUANGUI\festival-ms\Festival.Ms.DAL.Interfaces\obj\Debug\net8.0\Festival.Ms.DAL.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\DSC\Desktop\Escritorio\JUANGUI\festival-ms\Festival.Ms.DAL.Interfaces\obj\Debug\net8.0\Festival.Ms.DAL.Interfaces.sourcelink.json
+C:\Users\DSC\Desktop\Escritorio\JUANGUI\festival-ms\Festival.Ms.DAL.Interfaces\obj\Debug\net8.0\Festival.Ms.DAL.Interfaces.dll
+C:\Users\DSC\Desktop\Escritorio\JUANGUI\festival-ms\Festival.Ms.DAL.Interfaces\obj\Debug\net8.0\refint\Festival.Ms.DAL.Interfaces.dll
+C:\Users\DSC\Desktop\Escritorio\JUANGUI\festival-ms\Festival.Ms.DAL.Interfaces\obj\Debug\net8.0\Festival.Ms.DAL.Interfaces.pdb
+C:\Users\DSC\Desktop\Escritorio\JUANGUI\festival-ms\Festival.Ms.DAL.Interfaces\obj\Debug\net8.0\ref\Festival.Ms.DAL.Interfaces.dll
